@@ -6,21 +6,10 @@
 #define SCALE .015f
 
 typedef struct {
-    float x;
-    float y;
-} Vec2;
-
-typedef struct {
     uint8_t r;
     uint8_t g;
     uint8_t b;
 } Color;
-
-typedef struct {
-    Vec2 center;
-    float radius;
-    Vec2 velocity;
-} Metaball;
 
 uint32_t toRGB(Color* color) {
     return color->r << 24 | color->g << 16 | color->b << 8;
