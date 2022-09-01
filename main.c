@@ -3,7 +3,7 @@
 #include <stdbool.h>
 
 #define SIZE 800
-#define SCALE .015f
+#define SCALE 66.67f
 
 typedef struct {
     uint8_t r;
@@ -49,7 +49,7 @@ void graph(SDL_Surface* pixels, float func(float), uint32_t color) {
         for (int i = 0; i < SIZE; i++) {
             int x = i - SIZE / 2;
             int y = -j + SIZE / 2;
-            cartesianPlane[i][j] = y * SCALE - func(x * SCALE);
+            cartesianPlane[i][j] = y / SCALE - func(x / SCALE);
         }
     }
 
@@ -105,7 +105,5 @@ int main() {
     }
 
     SDL_Quit();
-    return 0;
-
     return 0;
 }
