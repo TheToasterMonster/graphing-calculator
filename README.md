@@ -12,3 +12,6 @@ Simple graphing calculator in C. Graphs functions based on how the function outp
 $ ./build.sh
 ```
 
+## Screenshots
+![](Screenshots/Sine.png)
+
