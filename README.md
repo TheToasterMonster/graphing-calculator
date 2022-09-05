@@ -13,5 +13,6 @@ $ ./build.sh
 ```
 
 ## Screenshots
-![f(x) = sin(x)](Screenshots/Sine.png)
+![](Screenshots/Sine.png) \
+*f(x) = sin(x)*
 
