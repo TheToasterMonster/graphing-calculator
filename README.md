@@ -7,6 +7,7 @@ Simple graphing calculator in C. Graphs functions based on how the function outp
 (paths and gcc version can be edited in build script)
 
 ## Quick Start
+*Function to be graphed can be changed in `main.c`'s `float f(float x)` function.*
 ```console
 $ ./build.sh
 ```
